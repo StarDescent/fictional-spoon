@@ -34,7 +34,7 @@ const routes = [
 
 //创建路由器
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory('/fictional-spoon/'),
     routes: routes
 })
 
